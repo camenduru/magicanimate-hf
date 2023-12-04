@@ -98,6 +98,7 @@ with gr.Blocks() as demo:
         ],
         inputs=[reference_image, motion_sequence],
         outputs=animation,
+        cache_examples=True
     )
 
 
