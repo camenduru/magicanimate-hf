@@ -97,8 +97,7 @@ with gr.Blocks() as demo:
             ["inputs/applications/source_image/multi1_source.png", "inputs/applications/driving/densepose/multi_dancing.mp4"],
         ],
         inputs=[reference_image, motion_sequence],
-        outputs=animation,
-        cache_examples=True
+        outputs=animation
     )
 
 
