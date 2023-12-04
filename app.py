@@ -19,9 +19,9 @@ from demo.animate import MagicAnimate
 
 from huggingface_hub import snapshot_download
 
-snapshot_download(repo_id="runwayml/stable-diffusion-v1-5", local_dir="./stable-diffusion-v1-5")
-snapshot_download(repo_id="stabilityai/sd-vae-ft-mse", local_dir="./sd-vae-ft-mse")
-snapshot_download(repo_id="zcxu-eric/MagicAnimate", local_dir="./MagicAnimate")
+# snapshot_download(repo_id="runwayml/stable-diffusion-v1-5", local_dir="./stable-diffusion-v1-5")
+# snapshot_download(repo_id="stabilityai/sd-vae-ft-mse", local_dir="./sd-vae-ft-mse")
+# snapshot_download(repo_id="zcxu-eric/MagicAnimate", local_dir="./MagicAnimate")
 
 animator = MagicAnimate()
 
