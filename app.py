@@ -56,7 +56,7 @@ with gr.Blocks() as demo:
             guidance_scale      = gr.Textbox(label="Guidance scale", value=7.5, info="default: 7.5")
             submit              = gr.Button("Animate")
 
-    def read_video(video):
+    def read_video(video, size=512):
         size = int(size)
         reader = imageio.get_reader(video)
         fps = reader.get_meta_data()['fps']
